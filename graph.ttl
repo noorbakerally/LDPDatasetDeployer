@@ -1,0 +1,218 @@
+<> {
+    <>      <http://www.w3.org/ns/ldp#contains>
+                    <catalog> .
+}
+
+<catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-json> {
+    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales-json>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "json export of https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales" ;
+            <http://purl.org/dc/terms/format>
+                    "json" ;
+            <http://purl.org/dc/terms/license>
+                    <http://opendatacommons.org/licenses/odbl/> ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales/exports/json> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+    
+    <catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-json>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales-json> .
+}
+
+<catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-geojson> {
+    <catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-geojson>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales-geojson> .
+    
+    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales-geojson>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "geojson export of https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales" ;
+            <http://purl.org/dc/terms/format>
+                    "geojson" ;
+            <http://purl.org/dc/terms/license>
+                    <http://opendatacommons.org/licenses/odbl/> ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales/exports/geojson> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+}
+
+<catalog/datasets/zones-touristiques-internationales> {
+    <catalog/datasets/zones-touristiques-internationales>
+            a       <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/zones-touristiques-internationales/distributions> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales> .
+    
+    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales>
+            a       <http://www.w3.org/ns/dcat#Dataset> ;
+            <http://purl.org/dc/terms/description>
+                    "<p>Délimitation des zones touristiques internationales . Les zones touristiques internationales (ZTI) sont des zones où les commerces de détail peuvent déroger au repos dominical des salariés</p><p><strong>Plus d'informations: </strong></p><p>Apur ( Atelier parisien d'urbanisme): <a href=\"http://www.apur.org/etude/zones-touristiques-internationales-paris-zti-diagnostic-initial-commerces\">http://www.apur.org/etude/zones-touristiques-inter...</a> </p><p>Ministère de l'Economie, de l'Industrie et des Nouvelles Technologies: <a href=\"http://www.economie.gouv.fr/vous-orienter/entreprise/commerce/creation-des-zones-touristiques-internationales-a-paris\">http://www.economie.gouv.fr/vous-orienter/entrepri...</a></p>" ;
+            <http://purl.org/dc/terms/identifier>
+                    "zones-touristiques-internationales" ;
+            <http://purl.org/dc/terms/language>
+                    <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+            <http://purl.org/dc/terms/title>
+                    "Zones Touristiques Internationales" ;
+            <http://www.w3.org/ns/dcat#keyword>
+                    "commerce" , "tourisme" ;
+            <http://www.w3.org/ns/dcat#theme>
+                    <https://opendata.paris.fr/id/theme/Commerces> .
+}
+
+<catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions/statistiques_de_creation_d_actes_d_etat_civil_par_mois-csv> {
+    <catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions/statistiques_de_creation_d_actes_d_etat_civil_par_mois-csv>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois-csv> .
+    
+    <https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois-csv>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "csv export of https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois" ;
+            <http://purl.org/dc/terms/format>
+                    "csv" ;
+            <http://purl.org/dc/terms/license>
+                    <http://opendatacommons.org/licenses/odbl/> ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/exports/csv> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "text/csv" .
+}
+
+<catalog> {
+    <https://opendata.paris.fr/api/v2/catalog/exports/ttl>
+            a       <http://www.w3.org/ns/dcat#Catalog> ;
+            <http://purl.org/dc/terms/Language>
+                    <http://id.loc.gov/vocabulary/iso639-1/fr> , <http://id.loc.gov/vocabulary/iso639-1/en> ;
+            <http://purl.org/dc/terms/description>
+                    "Parisdata Catalog" ;
+            <http://purl.org/dc/terms/publisher>
+                    <http://www.opendatasoft.com> ;
+            <http://purl.org/dc/terms/title>
+                    "Parisdata's catalog" ;
+            <http://www.w3.org/ns/dcat#themeTaxonomy>
+                    <https://opendata.paris.fr/concept-scheme/themes> ;
+            <http://xmlns.com/foaf/0.1/homepage>
+                    <https://opendata.paris.fr> .
+    
+    <catalog>  a    <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/exports/ttl> .
+}
+
+<catalog/datasets> {
+    <catalog/datasets>
+            a       <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/zones-touristiques-internationales> , <catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois> .
+}
+
+<catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-csv> {
+    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales-csv>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "csv export of https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales" ;
+            <http://purl.org/dc/terms/format>
+                    "csv" ;
+            <http://purl.org/dc/terms/license>
+                    <http://opendatacommons.org/licenses/odbl/> ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales/exports/csv> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "text/csv" .
+    
+    <catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-csv>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales-csv> .
+}
+
+<catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois> {
+    <catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois>
+            a       <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois> .
+    
+    <https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois>
+            a       <http://www.w3.org/ns/dcat#Dataset> ;
+            <http://purl.org/dc/terms/description>
+                    "<p>\n\t     Comptabilité des d'actes d'état-civil correspondant aux naissances, reconnaissances, mariages et décès par mois.</p>" ;
+            <http://purl.org/dc/terms/identifier>
+                    "statistiques_de_creation_d_actes_d_etat_civil_par_mois" ;
+            <http://purl.org/dc/terms/language>
+                    <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+            <http://purl.org/dc/terms/publisher>
+                    []  ;
+            <http://purl.org/dc/terms/title>
+                    "Statistiques de création d'actes d'état-civil par mois" ;
+            <http://www.w3.org/ns/dcat#keyword>
+                    "reconnaissance" , "mariage" , "Naissance" , "décès" ;
+            <http://www.w3.org/ns/dcat#theme>
+                    <https://opendata.paris.fr/id/theme/Citoyennet%C3%A9> .
+}
+
+<catalog/datasets/zones-touristiques-internationales/distributions> {
+    <catalog/datasets/zones-touristiques-internationales/distributions>
+            a       <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-csv> , <catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-json> , <catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-geojson> , <catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-shp> .
+}
+
+<catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions> {
+    <catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions>
+            a       <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions/statistiques_de_creation_d_actes_d_etat_civil_par_mois-json> , <catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions/statistiques_de_creation_d_actes_d_etat_civil_par_mois-csv> .
+}
+
+<catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions/statistiques_de_creation_d_actes_d_etat_civil_par_mois-json> {
+    <catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/distributions/statistiques_de_creation_d_actes_d_etat_civil_par_mois-json>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois-json> .
+    
+    <https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois-json>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "json export of https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois" ;
+            <http://purl.org/dc/terms/format>
+                    "json" ;
+            <http://purl.org/dc/terms/license>
+                    <http://opendatacommons.org/licenses/odbl/> ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/statistiques_de_creation_d_actes_d_etat_civil_par_mois/exports/json> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+}
+
+<catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-shp> {
+    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales-shp>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "shp export of https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales" ;
+            <http://purl.org/dc/terms/format>
+                    "shp" ;
+            <http://purl.org/dc/terms/license>
+                    <http://opendatacommons.org/licenses/odbl/> ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales/exports/shp> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/zip" .
+    
+    <catalog/datasets/zones-touristiques-internationales/distributions/zones-touristiques-internationales-shp>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://opendata.paris.fr/api/v2/catalog/datasets/zones-touristiques-internationales-shp> .
+}

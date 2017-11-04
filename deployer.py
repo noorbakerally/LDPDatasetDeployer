@@ -3,8 +3,6 @@ from rdflib import ConjunctiveGraph,Graph
 import requests
 import json
 
-base = "http://ci.emse.fr/marmotta/ldp/test12/"
-
 def createGraph(container,iri,g):
 	slug = iri.split("/")[-1]
 	headers = {"content-type":"text/turtle","Slug":slug}
@@ -19,7 +17,6 @@ def createGraph(container,iri,g):
 		else:
 			headers["Link"] = "http://www.w3.org/ns/ldp#Resource"
 	headers["Link"] = "<"+headers["Link"]+'>; rel="type"'
-	
 	#remove containment and ldp triples
 	result = graph.query("PREFIX ldp:<http://www.w3.org/ns/ldp#>  CONSTRUCT { ?s ?p ?o . } WHERE { ?s ?p ?o . FILTER ((?p not in (ldp:contains)) && (?o not in (ldp:BasicContainer)) )}")
 
@@ -34,7 +31,15 @@ def createGraph(container,iri,g):
                 createGraph(response.headers["Location"],child[0],g)
 
 g = ConjunctiveGraph()
-ldpDataset = sys.argv[1]
+args = {"--base":"","--graph":""}
+arg1 = sys.argv[1].split("=")
+args[arg1[0]] = arg1[1]
+
+arg2 = sys.argv[2].split("=")
+args[arg2[0]] = arg2[1]
+
+base = args["--base"]
+ldpDataset = args["--graph"]
 g.parse(ldpDataset,format="trig",publicID=base)
 
 #getting all the named graphs
