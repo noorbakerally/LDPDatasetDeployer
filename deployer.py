@@ -11,7 +11,7 @@ sys.setdefaultencoding('utf8')
 def createGraph(container,iri,g):
 	#getting the splug from the iri of the child
 	slug = iri.split("/")[-1]
-	headers = {"content-type":"rdf/xml","Slug":slug}
+	headers = {"content-type":"turtle","Slug":slug}
 	
 	#get the graph of the child
         graph = g.get_context(iri)
@@ -34,8 +34,8 @@ def createGraph(container,iri,g):
 	result = graph.query("PREFIX ldp:<http://www.w3.org/ns/ldp#>  CONSTRUCT { ?s ?p ?o . } WHERE { ?s ?p ?o . FILTER ((?p not in (ldp:contains)) && (?o not in (ldp:BasicContainer)) )}")
 	
 	#skolemize the graph
-	data = Graph().parse(data=result.serialize(format='xml')).skolemize().serialize(format="xml")
-	data = data.replace("<"+iri+">","<"+container+"/"+slug+">")
+	data = Graph().parse(data=result.serialize(format='xml')).skolemize().serialize(format="turtle")
+	data = data.replace("<"+iri+">","<>")
 	
 	#logging request details
 	logging.info("Request Details:")
