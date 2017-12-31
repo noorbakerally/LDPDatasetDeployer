@@ -1,0 +1,452 @@
+<> {
+    <>      <http://www.w3.org/ns/ldp#contains>
+                    <catalog> .
+}
+
+<catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-geojson> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement-geojson>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "geojson export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement" ;
+            <http://purl.org/dc/terms/format>
+                    "geojson" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement/exports/geojson> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+    
+    <catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-geojson>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement-geojson> .
+}
+
+<catalog/datasets/b2p_stations_ski/distributions> {
+    <catalog/datasets/b2p_stations_ski/distributions>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-json> , <catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-geojson> , <catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-csv> , <catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-shp> .
+}
+
+<catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-json> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski-json>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "json export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski" ;
+            <http://purl.org/dc/terms/format>
+                    "json" ;
+            <http://purl.org/dc/terms/license>
+                    "http://opendatacommons.org/licenses/odbl/1.0/" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski/exports/json> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+    
+    <catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-json>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski-json> .
+}
+
+<catalog> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/exports/ttl>
+            a       <http://www.w3.org/ns/dcat#Catalog> ;
+            <http://purl.org/dc/terms/Language>
+                    <http://id.loc.gov/vocabulary/iso639-1/en> , <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+            <http://purl.org/dc/terms/description>
+                    "Bistrotdepays Catalog" ;
+            <http://purl.org/dc/terms/publisher>
+                    <http://www.opendatasoft.com> ;
+            <http://purl.org/dc/terms/title>
+                    "Bistrotdepays's catalog" ;
+            <http://www.w3.org/ns/dcat#themeTaxonomy>
+                    <https://bistrotdepays.opendatasoft.com/concept-scheme/themes> ;
+            <http://xmlns.com/foaf/0.1/homepage>
+                    <https://bistrotdepays.opendatasoft.com> .
+    
+    <catalog>  a    <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/exports/ttl> .
+}
+
+<catalog/datasets> {
+    <catalog/datasets>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/animations_bistrots_de_pays> , <catalog/datasets/b2p_stations_ski> , <catalog/datasets/etablissements-sans-hebergement> , <catalog/datasets/etablissement-avec-hebergement> .
+}
+
+<catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-csv> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement-csv>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "csv export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement" ;
+            <http://purl.org/dc/terms/format>
+                    "csv" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement/exports/csv> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "text/csv" .
+    
+    <catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-csv>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement-csv> .
+}
+
+<catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-shp> {
+    <catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-shp>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays-shp> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays-shp>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "shp export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays" ;
+            <http://purl.org/dc/terms/format>
+                    "shp" ;
+            <http://purl.org/dc/terms/license>
+                    "http://opendatacommons.org/licenses/odbl/1.0/" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays/exports/shp> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/zip" .
+}
+
+<catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-json> {
+    <catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-json>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays-json> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays-json>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "json export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays" ;
+            <http://purl.org/dc/terms/format>
+                    "json" ;
+            <http://purl.org/dc/terms/license>
+                    "http://opendatacommons.org/licenses/odbl/1.0/" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays/exports/json> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+}
+
+<catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-geojson> {
+    <catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-geojson>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement-geojson> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement-geojson>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "geojson export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement" ;
+            <http://purl.org/dc/terms/format>
+                    "geojson" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement/exports/geojson> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+}
+
+<catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-shp> {
+    <catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-shp>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement-shp> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement-shp>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "shp export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement" ;
+            <http://purl.org/dc/terms/format>
+                    "shp" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement/exports/shp> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/zip" .
+}
+
+<catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-json> {
+    <catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-json>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement-json> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement-json>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "json export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement" ;
+            <http://purl.org/dc/terms/format>
+                    "json" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement/exports/json> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+}
+
+<catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-shp> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement-shp>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "shp export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement" ;
+            <http://purl.org/dc/terms/format>
+                    "shp" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement/exports/shp> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/zip" .
+    
+    <catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-shp>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement-shp> .
+}
+
+<catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-csv> {
+    <catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-csv>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays-csv> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays-csv>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "csv export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays" ;
+            <http://purl.org/dc/terms/format>
+                    "csv" ;
+            <http://purl.org/dc/terms/license>
+                    "http://opendatacommons.org/licenses/odbl/1.0/" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays/exports/csv> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "text/csv" .
+}
+
+<catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-geojson> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski-geojson>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "geojson export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski" ;
+            <http://purl.org/dc/terms/format>
+                    "geojson" ;
+            <http://purl.org/dc/terms/license>
+                    "http://opendatacommons.org/licenses/odbl/1.0/" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski/exports/geojson> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+    
+    <catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-geojson>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski-geojson> .
+}
+
+<catalog/datasets/animations_bistrots_de_pays> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays>
+            a       <http://www.w3.org/ns/dcat#Dataset> ;
+            <http://purl.org/dc/terms/description>
+                    "<p>\n\tListe des animations dans les établissements du label Bistrot de Pays.</p>" ;
+            <http://purl.org/dc/terms/identifier>
+                    "animations_bistrots_de_pays" ;
+            <http://purl.org/dc/terms/language>
+                    <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+            <http://purl.org/dc/terms/publisher>
+                    []  ;
+            <http://purl.org/dc/terms/title>
+                    "Animations Bistrots de Pays" .
+    
+    <catalog/datasets/animations_bistrots_de_pays>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/animations_bistrots_de_pays/distributions> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays> .
+}
+
+<catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-json> {
+    <catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-json>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement-json> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement-json>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "json export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement" ;
+            <http://purl.org/dc/terms/format>
+                    "json" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement/exports/json> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+}
+
+<catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-csv> {
+    <catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-csv>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement-csv> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement-csv>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "csv export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement" ;
+            <http://purl.org/dc/terms/format>
+                    "csv" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement/exports/csv> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "text/csv" .
+}
+
+<catalog/datasets/b2p_stations_ski> {
+    <catalog/datasets/b2p_stations_ski>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/b2p_stations_ski/distributions> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski>
+            a       <http://www.w3.org/ns/dcat#Dataset> ;
+            <http://purl.org/dc/terms/description>
+                    "<p>Liste des stations de ski proches des bistrots de pays.</p>" ;
+            <http://purl.org/dc/terms/identifier>
+                    "b2p_stations_ski" ;
+            <http://purl.org/dc/terms/language>
+                    <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+            <http://purl.org/dc/terms/publisher>
+                    []  ;
+            <http://purl.org/dc/terms/title>
+                    "Stations de ski proches de bistrots de pays" ;
+            <http://www.w3.org/ns/dcat#theme>
+                    <https://bistrotdepays.opendatasoft.com/id/theme/Sport%2C%20Loisirs> .
+}
+
+<catalog/datasets/etablissement-avec-hebergement/distributions> {
+    <catalog/datasets/etablissement-avec-hebergement/distributions>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-shp> , <catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-csv> , <catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-geojson> , <catalog/datasets/etablissement-avec-hebergement/distributions/etablissement-avec-hebergement-json> .
+}
+
+<catalog/datasets/etablissements-sans-hebergement/distributions> {
+    <catalog/datasets/etablissements-sans-hebergement/distributions>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-shp> , <catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-csv> , <catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-geojson> , <catalog/datasets/etablissements-sans-hebergement/distributions/etablissements-sans-hebergement-json> .
+}
+
+<catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-shp> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski-shp>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "shp export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski" ;
+            <http://purl.org/dc/terms/format>
+                    "shp" ;
+            <http://purl.org/dc/terms/license>
+                    "http://opendatacommons.org/licenses/odbl/1.0/" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski/exports/shp> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/zip" .
+    
+    <catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-shp>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski-shp> .
+}
+
+<catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-csv> {
+    <catalog/datasets/b2p_stations_ski/distributions/b2p_stations_ski-csv>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski-csv> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski-csv>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "csv export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski" ;
+            <http://purl.org/dc/terms/format>
+                    "csv" ;
+            <http://purl.org/dc/terms/license>
+                    "http://opendatacommons.org/licenses/odbl/1.0/" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/b2p_stations_ski/exports/csv> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "text/csv" .
+}
+
+<catalog/datasets/etablissement-avec-hebergement> {
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement>
+            a       <http://www.w3.org/ns/dcat#Dataset> ;
+            <http://purl.org/dc/terms/description>
+                    "None" ;
+            <http://purl.org/dc/terms/identifier>
+                    "etablissement-avec-hebergement" ;
+            <http://purl.org/dc/terms/language>
+                    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+            <http://purl.org/dc/terms/title>
+                    "Etablissement avec hebergement" .
+    
+    <catalog/datasets/etablissement-avec-hebergement>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/etablissement-avec-hebergement/distributions> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissement-avec-hebergement> .
+}
+
+<catalog/datasets/etablissements-sans-hebergement> {
+    <catalog/datasets/etablissements-sans-hebergement>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/etablissements-sans-hebergement/distributions> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/etablissements-sans-hebergement>
+            a       <http://www.w3.org/ns/dcat#Dataset> ;
+            <http://purl.org/dc/terms/description>
+                    "None" ;
+            <http://purl.org/dc/terms/identifier>
+                    "etablissements-sans-hebergement" ;
+            <http://purl.org/dc/terms/language>
+                    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+            <http://purl.org/dc/terms/title>
+                    "etablissements sans hébergement" .
+}
+
+<catalog/datasets/animations_bistrots_de_pays/distributions> {
+    <catalog/datasets/animations_bistrots_de_pays/distributions>
+            a       <http://www.w3.org/ns/ldp#RDFSource> , <http://www.w3.org/ns/ldp#Container> , <http://www.w3.org/ns/ldp#BasicContainer> ;
+            <http://www.w3.org/ns/ldp#contains>
+                    <catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-shp> , <catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-csv> , <catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-json> , <catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-geojson> .
+}
+
+<catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-geojson> {
+    <catalog/datasets/animations_bistrots_de_pays/distributions/animations_bistrots_de_pays-geojson>
+            a       <http://www.w3.org/ns/ldp#RDFSource> ;
+            <http://xmlns.com/foaf/0.1/primaryTopic>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays-geojson> .
+    
+    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays-geojson>
+            a       <http://www.w3.org/ns/dcat#Distribution> ;
+            <http://purl.org/dc/terms/description>
+                    "geojson export of https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays" ;
+            <http://purl.org/dc/terms/format>
+                    "geojson" ;
+            <http://purl.org/dc/terms/license>
+                    "http://opendatacommons.org/licenses/odbl/1.0/" ;
+            <http://www.w3.org/ns/dcat#accessURL>
+                    <https://bistrotdepays.opendatasoft.com/api/v2/catalog/datasets/animations_bistrots_de_pays/exports/geojson> ;
+            <http://www.w3.org/ns/dcat#mediaType>
+                    "application/json" .
+}

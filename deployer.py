@@ -11,7 +11,7 @@ sys.setdefaultencoding('utf8')
 def createGraph(container,iri,g):
 	#getting the splug from the iri of the child
 	slug = iri.split("/")[-1]
-	headers = {"content-type":"turtle","Slug":slug}
+	headers = {"content-type":"text/turtle","Slug":slug}
 	
 	#get the graph of the child
         graph = g.get_context(iri)
@@ -44,7 +44,7 @@ def createGraph(container,iri,g):
 	logging.info("Request sent with headers:"+str(headers))
 
 	#send the post request
-	response = requests.post(container,data=data,headers=headers)
+	response = requests.post(container,data=data,headers=headers,verify=False)
 	
 	#validate the response
 	if "Location" not in response.headers and response.status_code != 201:
